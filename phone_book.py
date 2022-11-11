@@ -1,16 +1,16 @@
 
-# class PhoneBook:
-#
-#     phone_book = []
-#
-#
-#     def getPhoneBook() -> list:
-#         global phone_book
-#         return phone_book
-#
-#     def setPhoneBook(new_phone_book: list):
-#         global phone_book
-#         phone_book = new_phone_book
+class PhoneBook:
+
+    phone_book = []
+
+
+    def getPhoneBook() -> list:
+        global phone_book
+        return phone_book
+
+    def setPhoneBook(new_phone_book: list):
+        global phone_book
+        phone_book = new_phone_book
 
 class People:
     _name: str
@@ -37,16 +37,16 @@ class People:
 
 
 
-stone = People("Стоун")
+stole = People("Стоун")
 andrey = People('Андрей')
 
-print(stone.getAge())
-stone.setAge(38)
+print(stole.getAge())
+stole.setAge(38)
 
-print(stone.getName())
-print(stone.getAge())
+print(stole.getName())
+print(stole.getAge())
 
-stone.spy()
+stole.spy()
 
-print(stone.getName())
-print(stone.getAge())
+print(stole.getName())
+print(stole.getAge())
